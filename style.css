@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.form-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: block;
+}
+.card {
+    width: 100%;
+    max-width: 400px; 
+}
+
+
+.show-form-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

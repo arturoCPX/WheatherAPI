@@ -1,0 +1,10 @@
+
+.form-control, .btn {
+    font-size: 12px; /* Cambiar tamaño del texto */
+    padding: 5px 10px; /* Reducir el relleno (padding) de los botones */
+}
+
+.hottest {
+    border: 2px solid red;
+    background-color: #ffe6e6; /* Fondo rojo claro */
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>OpenWeatherApp</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Weather API</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">Default</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-4" role="search">
+                <button class="btn btn-outline-success" type="button" id="clearCity">Borrar Ciudad</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="d-flex flex-column flex-md-row gap-4">
+            <div class="form-container" id="myForm">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="form">
+                            <div class="mb-3">
+                                <h4 class="text-center">¿Cual es tu Ciudad?</h4>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" id="city" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="ri-save-3-fill"></i> Guardar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="show-form-container">
+                
+            </div>
+
+        </div>
+        
+    </div>
+
+
+  
+
+   
+
+
+
+
+
+    <script src="app.js"></script>
+
+
+
+
+
+</body>
+</html>
