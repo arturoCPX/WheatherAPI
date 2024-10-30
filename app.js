@@ -23,11 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const city = document.getElementById('city').value.trim(); 
         if (city) {
             getCity(city);  // Validar primero si la ciudad existe(vacio)
-
         } else {
             alert('Ingrese una Ciudad');
         }
-        
     });
 
     // Evento para borrar ciudad
